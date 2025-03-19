@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/quote/quote_1-pagePart/quote_1-pagePart.tsx/quote_1-pagePart.module.scss.module.css"],"sourcesContent":[".quote_1_pagePart{font-size:1rem;display:flex;flex-direction:column;align-items:center;gap:20px;width:100%}.quote_1_pagePart .icon{width:2.5em;height:auto}.quote_1_pagePart .text_contents{display:flex;flex-direction:column;align-items:center;gap:10px}.quote_1_pagePart .text_contents blockquote{font-size:1.2em;text-align:center;color:var(--second-text-color, white)}.quote_1_pagePart .text_contents .name{font-size:.9em;color:var(--second-text-color, white)}.quote_1_pagePart .button_cont{display:flex;flex-direction:row;align-items:center;gap:4px;margin-top:20px}.quote_1_pagePart .button_cont button{width:40px;height:4px;background-color:var(--second-text-color)}.quote_1_pagePart .button_cont .active{background-color:var(--primary-color, teal)}"],"names":[],"mappings":"AAAA;;;;;;;;;AAA2G;;;;;AAAgD;;;;;;;AAAgG;;;;;;AAAoH;;;;;AAA4F;;;;;;;;AAA0G;;;;;;AAAsG"}}]
+}

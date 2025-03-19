@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/pageIntro/pageIntro_2-pagePart/pageIntro_2-pagePart.module.scss.module.css"],"sourcesContent":[".pageIntro_2_pagePart{font-size:1rem;display:flex;flex-direction:column}.pageIntro_2_pagePart .Tags1PagePart_placeHolder{margin-bottom:20px}.pageIntro_2_pagePart .heading{font-size:2.5em;color:rgb(var(--first-text-color, 255, 255, 255));margin-bottom:30px}.pageIntro_2_pagePart .list ul{display:flex;flex-direction:column;gap:10px;margin-bottom:30px}.pageIntro_2_pagePart .list ul li{display:flex;flex-direction:row;align-items:center;gap:10px}.pageIntro_2_pagePart .list ul li .icon{width:1.2em;height:1.2em}.pageIntro_2_pagePart .list ul li .text{font-size:1.2em;color:var(--second-text-color, #f5f5f5)}.pageIntro_2_pagePart .link{font-size:1em;padding:10px 20px;border-radius:99999px;border:1px solid var(--first-border-color, gray);background-color:var(--second-color, teal);color:rgb(var(--first-text-color, 255, 255, 255))}"],"names":[],"mappings":"AAAA;;;;;;AAAwE;;;;AAAoE;;;;;;AAAoH;;;;;;;AAA8F;;;;;;;AAA8F;;;;;AAAiE;;;;;AAAgG"}}]
+}

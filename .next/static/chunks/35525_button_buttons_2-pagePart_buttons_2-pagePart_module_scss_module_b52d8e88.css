@@ -1,0 +1,35 @@
+/* [project]/src/components/button/buttons_2-pagePart/buttons_2-pagePart.module.scss.module.css [app-client] (css) */
+.buttons_2-pagePart-module-scss-module__WdYmva__buttons_2_pagePart {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  gap: 10px;
+  width: 100%;
+}
+
+.buttons_2-pagePart-module-scss-module__WdYmva__buttons_2_pagePart__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .8rem;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #0000;
+  color: var(--second-text-color, #fff);
+  font-size: 1rem;
+  white-space: wrap;
+  cursor: pointer;
+  transition: background-color .1s, color .1s;
+}
+
+.buttons_2-pagePart-module-scss-module__WdYmva__buttons_2_pagePart__button.buttons_2-pagePart-module-scss-module__WdYmva__active {
+  background-color: var(--charcoal-green, #1c2624);
+  color: rgb(var(--first-text-color, #fff));
+}
+
+.buttons_2-pagePart-module-scss-module__WdYmva__buttons_2_pagePart__button__icon {
+  min-width: 1rem;
+  height: 1rem;
+}
+
+/*# sourceMappingURL=35525_button_buttons_2-pagePart_buttons_2-pagePart_module_scss_module_b52d8e88.css.map*/

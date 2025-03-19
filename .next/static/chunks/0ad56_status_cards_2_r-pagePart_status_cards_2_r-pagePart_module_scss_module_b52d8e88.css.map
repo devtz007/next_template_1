@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/card/status_card/status_cards_2_r-pagePart/status_cards_2_r-pagePart.module.scss.module.css"],"sourcesContent":[".status_cards_2_r_pagePart{display:grid;grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));gap:10px;width:100%}@media screen and (width <= 800px){.status_cards_2_r_pagePart{grid-template-columns:repeat(auto-fit, minmax(200px, 1fr))}}.status_cards_2_r_pagePart .card{display:flex;flex-direction:column;justify-content:space-between;position:relative;gap:2rem;background-color:rgba(0,0,0,0);padding:1rem;border-radius:8px;overflow:hidden;z-index:0}.status_cards_2_r_pagePart .card .icon_text{display:flex;flex-direction:row;align-items:center;gap:1rem}.status_cards_2_r_pagePart .card .icon_text .icon{width:2rem;height:2rem}.status_cards_2_r_pagePart .card .icon_text .text{font-size:1.2rem;font-weight:600;color:var(--primary-text-color, white)}.status_cards_2_r_pagePart .card .description{color:var(--secondery-text-color, white)}"],"names":[],"mappings":"AAAA;;;;;;;AAAuH;EAAmC;;;;;AAAuF;;;;;;;;;;;;;AAAqN;;;;;;;AAAwG;;;;;AAAyE;;;;;;AAA0H"}}]
+}

@@ -1,0 +1,55 @@
+/* [project]/src/components/card/feature_card/feature_cards_4-pagePart/feature_cards_4-pagePart.module.scss.module.css [app-client] (css) */
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  gap: 2rem;
+  background-color: #0000;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 0;
+  min-height: 200px;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__text_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__text_cont .feature_cards_4-pagePart-module-scss-module__BIK3EG__tag {
+  font-size: .8em;
+  color: var(--primary-color, teal);
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__text_cont .feature_cards_4-pagePart-module-scss-module__BIK3EG__heading {
+  color: var(--first-text-color, white);
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__text_cont .feature_cards_4-pagePart-module-scss-module__BIK3EG__description {
+  font-size: .8em;
+  color: var(--second-text-color, #f5f5f5);
+}
+
+/*# sourceMappingURL=44a30_feature_cards_4-pagePart_feature_cards_4-pagePart_module_scss_module_b52d8e88.css.map*/

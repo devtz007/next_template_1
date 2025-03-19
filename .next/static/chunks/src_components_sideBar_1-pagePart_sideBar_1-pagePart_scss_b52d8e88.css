@@ -1,0 +1,43 @@
+/* [project]/src/components/sideBar_1-pagePart/sideBar_1-pagePart.scss.css [app-client] (css) */
+.sideBar_1_pagePart {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.4rem 1rem;
+  border-radius: 8px;
+  background-color: var(--second-background-color, black);
+}
+
+.sideBar_1_pagePart .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.sideBar_1_pagePart .buttons .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .8rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.sideBar_1_pagePart .buttons .button .icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.sideBar_1_pagePart .buttons .button .text {
+  color: var(--second-text-color, white);
+}
+
+.sideBar_1_pagePart .buttons .button.renew {
+  background: #3dffbb;
+  background: linear-gradient(90deg, #3dffbb40 0%, #1d1d1d80 100%);
+  background: linear-gradient(90deg, #3dffbb40 0%, #1d1d1d80 100%);
+  background: linear-gradient(90deg, #3dffbb40 0%, #1d1d1d80 100%);
+  filter: progid:DXImageTransform. Microsoft. gradient(startColorstr= "#3dffbb", endColorstr= "#1d1d1d", GradientType= 1);
+}
+
+/*# sourceMappingURL=src_components_sideBar_1-pagePart_sideBar_1-pagePart_scss_b52d8e88.css.map*/

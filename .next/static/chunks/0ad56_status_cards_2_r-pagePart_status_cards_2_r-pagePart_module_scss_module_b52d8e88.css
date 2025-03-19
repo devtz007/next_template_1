@@ -1,0 +1,50 @@
+/* [project]/src/components/card/status_card/status_cards_2_r-pagePart/status_cards_2_r-pagePart.module.scss.module.css [app-client] (css) */
+.status_cards_2_r-pagePart-module-scss-module__DF8etW__status_cards_2_r_pagePart {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+@media screen and (width <= 800px) {
+  .status_cards_2_r-pagePart-module-scss-module__DF8etW__status_cards_2_r_pagePart {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+.status_cards_2_r-pagePart-module-scss-module__DF8etW__status_cards_2_r_pagePart .status_cards_2_r-pagePart-module-scss-module__DF8etW__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  gap: 2rem;
+  background-color: #0000;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.status_cards_2_r-pagePart-module-scss-module__DF8etW__status_cards_2_r_pagePart .status_cards_2_r-pagePart-module-scss-module__DF8etW__card .status_cards_2_r-pagePart-module-scss-module__DF8etW__icon_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.status_cards_2_r-pagePart-module-scss-module__DF8etW__status_cards_2_r_pagePart .status_cards_2_r-pagePart-module-scss-module__DF8etW__card .status_cards_2_r-pagePart-module-scss-module__DF8etW__icon_text .status_cards_2_r-pagePart-module-scss-module__DF8etW__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.status_cards_2_r-pagePart-module-scss-module__DF8etW__status_cards_2_r_pagePart .status_cards_2_r-pagePart-module-scss-module__DF8etW__card .status_cards_2_r-pagePart-module-scss-module__DF8etW__icon_text .status_cards_2_r-pagePart-module-scss-module__DF8etW__text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-text-color, white);
+}
+
+.status_cards_2_r-pagePart-module-scss-module__DF8etW__status_cards_2_r_pagePart .status_cards_2_r-pagePart-module-scss-module__DF8etW__card .status_cards_2_r-pagePart-module-scss-module__DF8etW__description {
+  color: var(--secondery-text-color, white);
+}
+
+/*# sourceMappingURL=0ad56_status_cards_2_r-pagePart_status_cards_2_r-pagePart_module_scss_module_b52d8e88.css.map*/

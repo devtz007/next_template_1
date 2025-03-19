@@ -1,0 +1,126 @@
+/* [project]/src/components/footer/footer_3-pagePart/footer_3_pagePart.module.scss.module.css [app-client] (css) */
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--first-background-color, black);
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__width_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 100px 0;
+}
+
+@media screen and (width <= 500px) {
+  .footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__width_wrapper {
+    gap: 30px;
+    padding: 30px 0;
+  }
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__logoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 300px;
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__logoSection .footer_3_pagePart-module-scss-module__ExLvCW__logoContainer {
+  width: 150px;
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__logoSection .footer_3_pagePart-module-scss-module__ExLvCW__social_content {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__logoSection .footer_3_pagePart-module-scss-module__ExLvCW__social_content .footer_3_pagePart-module-scss-module__ExLvCW__icon {
+  width: 1.5em;
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__menuContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex: auto;
+  gap: 30px;
+}
+
+@media screen and (width <= 820px) {
+  .footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__menuContainer {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (width <= 500px) {
+  .footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__menuContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__menuContainer .footer_3_pagePart-module-scss-module__ExLvCW__menuHeading {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--first-text-color, white);
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__menuContainer .footer_3_pagePart-module-scss-module__ExLvCW__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__menuContainer .footer_3_pagePart-module-scss-module__ExLvCW__menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__menuContainer .footer_3_pagePart-module-scss-module__ExLvCW__menuLink {
+  color: var(--second-text-color, black);
+  font-size: .9em;
+  white-space: nowrap;
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__sub_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 10px;
+  border-top: 1px solid var(--first-border-color, gray);
+  background: var(--first-background-color, black);
+  text-align: center;
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__sub_footer .footer_3_pagePart-module-scss-module__ExLvCW__width_wrapper_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  width: 90%;
+  color: var(--second-text-color, black);
+  font-size: .8em;
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__sub_footer .footer_3_pagePart-module-scss-module__ExLvCW__link {
+  color: var(--second-text-color, #f5f5f5);
+}
+
+.footer_3_pagePart-module-scss-module__ExLvCW__footer_3_pagePart .footer_3_pagePart-module-scss-module__ExLvCW__sub_footer .footer_3_pagePart-module-scss-module__ExLvCW__tac {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=35525_footer_footer_3-pagePart_footer_3_pagePart_module_scss_module_b52d8e88.css.map*/

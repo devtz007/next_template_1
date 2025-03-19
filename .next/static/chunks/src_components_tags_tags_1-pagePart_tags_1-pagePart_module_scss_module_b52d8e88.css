@@ -1,0 +1,33 @@
+/* [project]/src/components/tags/tags_1-pagePart/tags_1-pagePart.module.scss.module.css [app-client] (css) */
+.tags_1-pagePart-module-scss-module__OGP2ZW__tags_1_pagePart {
+  font-size: .9rem;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tags_1-pagePart-module-scss-module__OGP2ZW__tags_1_pagePart .tags_1-pagePart-module-scss-module__OGP2ZW__tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--first-border-color, gray);
+  border-radius: 4px;
+  background-color: var(--second-color, black);
+}
+
+.tags_1-pagePart-module-scss-module__OGP2ZW__tags_1_pagePart .tags_1-pagePart-module-scss-module__OGP2ZW__tag .tags_1-pagePart-module-scss-module__OGP2ZW__icon {
+  width: 1em;
+  height: 1em;
+}
+
+.tags_1-pagePart-module-scss-module__OGP2ZW__tags_1_pagePart .tags_1-pagePart-module-scss-module__OGP2ZW__tag .tags_1-pagePart-module-scss-module__OGP2ZW__name {
+  text-transform: capitalize;
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=src_components_tags_tags_1-pagePart_tags_1-pagePart_module_scss_module_b52d8e88.css.map*/

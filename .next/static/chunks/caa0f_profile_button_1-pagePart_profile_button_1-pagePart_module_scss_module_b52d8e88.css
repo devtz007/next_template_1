@@ -1,0 +1,72 @@
+/* [project]/src/components/button/profile_button_1-pagePart/profile_button_1-pagePart.module.scss.module.css [app-client] (css) */
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: .8rem;
+  gap: .8rem;
+  background: none;
+  color: var(--dusty-white, #fff);
+  border: none;
+  cursor: pointer;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart__icon_cont {
+  width: 1.2rem;
+  aspect-ratio: 1;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart__image_cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_invite {
+  padding: .5rem 1rem;
+  border: 1px solid var(--charcoal-gray, gray);
+  border-radius: 99999px;
+  color: var(--dusty-white, white);
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_notification {
+  position: relative;
+  margin-right: 1.1rem;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_notification__icon_cont {
+  width: 1.4rem;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_notification__count {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  width: calc(1em + 8px);
+  height: calc(1em + 8px);
+  border-radius: 50%;
+  padding: 4px;
+  background-color: var(--crimson, crimson);
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_profile__image_cont {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_profile__icon_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.4rem;
+}
+
+/*# sourceMappingURL=caa0f_profile_button_1-pagePart_profile_button_1-pagePart_module_scss_module_b52d8e88.css.map*/

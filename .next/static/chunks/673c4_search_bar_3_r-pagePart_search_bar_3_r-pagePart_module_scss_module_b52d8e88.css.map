@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/search_bars/search_bar_3_r-pagePart/search_bar_3_r-pagePart.module.scss.module.css"],"sourcesContent":[".frame15__frame12{position:relative;min-width:385px;width:100%;height:43px;display:flex;align-items:center;border:solid 1px var(--first-border-color, gray);border-radius:99999px;background-color:var(--third-background-color);overflow:hidden;grid-area:search_bar_3_pagePart}@media screen and (width <= 1000px){.frame15__frame12{min-width:280px}}.frame15__frame12__frame13{position:absolute;right:4px;top:4px;width:68px;height:35px;display:flex;justify-content:center;align-items:center;border-radius:110px;background-color:rgba(0,0,0,0);overflow:hidden}.frame15__frame12__frame13__flowbiteSearchOutline{display:flex;justify-content:center;align-items:center;width:21px;height:21px}.frame15__frame12__search{color:var(--first-text-color);font-size:16px;padding-left:19px;width:calc(100% - 68px);height:100%;border:none;outline:none;background:rgba(0,0,0,0);box-sizing:border-box}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;AAAiR;EAAoC;;;;;AAAmC;;;;;;;;;;;;;;AAAgN;;;;;;;;AAAgI"}}]
+}

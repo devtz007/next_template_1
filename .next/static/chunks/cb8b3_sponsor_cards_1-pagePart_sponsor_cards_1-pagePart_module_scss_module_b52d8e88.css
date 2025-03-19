@@ -1,0 +1,29 @@
+/* [project]/src/components/sponsor_card/sponsor_cards_1-pagePart/sponsor_cards_1-pagePart.module.scss.module.css [app-client] (css) */
+.sponsor_cards_1-pagePart-module-scss-module__jnqH-G__sponsor_cards_1_pagePart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.sponsor_cards_1-pagePart-module-scss-module__jnqH-G__sponsor_cards_1_pagePart h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--second-text-color, #f5f5f5);
+}
+
+.sponsor_cards_1-pagePart-module-scss-module__jnqH-G__sponsor_cards_1_pagePart .sponsor_cards_1-pagePart-module-scss-module__jnqH-G__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.sponsor_cards_1-pagePart-module-scss-module__jnqH-G__sponsor_cards_1_pagePart .sponsor_cards_1-pagePart-module-scss-module__jnqH-G__list .sponsor_cards_1-pagePart-module-scss-module__jnqH-G__link .sponsor_cards_1-pagePart-module-scss-module__jnqH-G__image {
+  width: 150px;
+}
+
+/*# sourceMappingURL=cb8b3_sponsor_cards_1-pagePart_sponsor_cards_1-pagePart_module_scss_module_b52d8e88.css.map*/

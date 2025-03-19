@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///workspace/src/app/%28home%29/layout.tsx"],"sourcesContent":["/* Import media */\n\n/* Import styles */\nimport styles from './layout.module.scss';\n\n/* Import components */\n\n/* Home4Layout component defines the layout structure of the homepage */\nconst Home4Layout = ({ children }: { children: React.ReactNode }) => {\n  return (\n    <div className={styles.home_3_layout}>\n      {/* COMPONENT:  */}\n      <div>HEADER</div>\n      {/* Main content to render the child components */}\n      <main className={styles.home_main}>{children}</main>\n      {/* COMPONENT:  */}\n      <div>FOOTER</div>\n    </div>\n  );\n};\n\nHome4Layout.displayName = 'Home4Layout';\n\nexport default Home4Layout;\n"],"names":[],"mappings":"AAAA,gBAAgB,GAEhB,iBAAiB;;;;;;;;;;;AAGjB,qBAAqB,GAErB,sEAAsE,GACtE,MAAM,cAAc,CAAC,EAAE,QAAQ,EAAiC;IAC9D,qBACE,8OAAC;QAAI,WAAW,OAAO,aAAa;;0BAElC,8OAAC;0BAAI;;;;;;0BAEL,8OAAC;gBAAK,WAAW,OAAO,SAAS;0BAAG;;;;;;0BAEpC,8OAAC;0BAAI;;;;;;;;;;;;AAGX;AAEA,YAAY,WAAW,GAAG;uCAEX","debugId":null}}]
+}

@@ -1,0 +1,23 @@
+/* [project]/src/components/menus/menus_1-pagePart/menus_1-pagePart.module.scss.module.css [app-client] (css) */
+.menus_1-pagePart-module-scss-module__kCh6aq__menus_1_pagePart {
+  display: flex;
+  flex-flow: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.menus_1-pagePart-module-scss-module__kCh6aq__menus_1_pagePart .menus_1-pagePart-module-scss-module__kCh6aq__link {
+  padding: 8px 16px;
+  border: solid 1px var(--first-border-color, gray);
+  border-radius: 9999px;
+  color: var(--second-text-color, gray);
+  font-size: 1rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.menus_1-pagePart-module-scss-module__kCh6aq__menus_1_pagePart .menus_1-pagePart-module-scss-module__kCh6aq__link__active {
+  box-shadow: inset 0 10px 30px #fff3;
+}
+
+/*# sourceMappingURL=1ab64_components_menus_menus_1-pagePart_menus_1-pagePart_module_scss_module_b52d8e88.css.map*/

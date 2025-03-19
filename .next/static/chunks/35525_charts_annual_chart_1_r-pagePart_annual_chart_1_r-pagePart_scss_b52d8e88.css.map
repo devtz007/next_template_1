@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/charts/annual_chart_1_r-pagePart/annual_chart_1_r-pagePart.scss.css"],"sourcesContent":[".annual_chart_1_r-pagePart{display:flex;flex-direction:column;gap:1rem;height:250px;padding:.5rem}.annual_chart_1_r-pagePart .canvasjs-chart-credit{display:none}.annual_chart_1_r-pagePart .heading_cont{font-size:1rem;display:flex;flex-direction:row;justify-content:space-between;align-items:center;gap:2rem;color:var(--second-text-color, gray)}.annual_chart_1_r-pagePart .heading_cont .filter_cont{display:flex;flex-direction:row;align-items:center;gap:1rem}.annual_chart_1_r-pagePart .heading_cont .filter_cont .axis_y_title{border-bottom:2px solid var(--primary-color, green);line-height:2}.annual_chart_1_r-pagePart .heading_cont .filter_4_r_pagePart{font-size:.8rem}.annual_chart_1_r-pagePart .heading_cont .filter_4_r_pagePart .filter{border:1px solid var(--first-border-color, gray);padding:.2rem;border-radius:4px;background-color:var(--fourth-background-color, gray);color:var(--second-text-color, gray)}"],"names":[],"mappings":"AAAA;;;;;;;;AAAkG;;;;AAA+D;;;;;;;;;;AAAuL;;;;;;;AAAkH;;;;;AAAsI;;;;AAA8E"}}]
+}

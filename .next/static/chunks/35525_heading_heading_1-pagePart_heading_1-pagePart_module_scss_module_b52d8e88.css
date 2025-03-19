@@ -1,0 +1,22 @@
+/* [project]/src/components/heading/heading_1-pagePart/heading_1-pagePart.module.scss.module.css [app-client] (css) */
+.heading_1-pagePart-module-scss-module__S1KvUG__heading_1_pagePart {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.heading_1-pagePart-module-scss-module__S1KvUG__heading_1_pagePart .heading_1-pagePart-module-scss-module__S1KvUG__heading_tag {
+  font-size: .9em;
+  text-transform: uppercase;
+  color: var(--primary-color, teal);
+}
+
+.heading_1-pagePart-module-scss-module__S1KvUG__heading_1_pagePart .heading_1-pagePart-module-scss-module__S1KvUG__heading {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: var(--first-text-color, teal);
+}
+
+/*# sourceMappingURL=35525_heading_heading_1-pagePart_heading_1-pagePart_module_scss_module_b52d8e88.css.map*/

@@ -1,0 +1,26 @@
+/* [project]/src/app/dashboard/layout.module.scss.module.css [app-client] (css) */
+.layout-module-scss-module__JWUOKa__dashboard_layout {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 200px minmax(600px, 1fr);
+  grid-template-areas: "header header"
+                       "sidebar main";
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+@media screen and (width <= 800px) {
+  .layout-module-scss-module__JWUOKa__dashboard_layout {
+    grid-template-columns: 180px 1fr;
+  }
+}
+
+.layout-module-scss-module__JWUOKa__dashboard_main {
+  width: 100%;
+  grid-area: main;
+}
+
+
+/*# sourceMappingURL=src_app_dashboard_layout_module_scss_module_64b6f131.css.map*/

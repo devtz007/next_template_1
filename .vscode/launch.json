@@ -1,0 +1,39 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "name": "Debug Next.js (Dev Mode)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "args": ["--inspect-brk", "./node_modules/.bin/next", "dev"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMaps": true,
+      "smartStep": true
+    },
+    {
+      "name": "Debug Next.js (Production)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "args": ["--inspect-brk", "./node_modules/.bin/next", "start"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMaps": true,
+      "smartStep": true
+    },
+    {
+      "name": "Attach to Next.js",
+      "type": "node",
+      "request": "attach",
+      "port": 9999,
+      "restart": true,
+      "timeout": 10000,
+      "sourceMaps": true,
+      "outFiles": ["${workspaceFolder}/.next/**/*.js"]
+    }
+  ]
+}

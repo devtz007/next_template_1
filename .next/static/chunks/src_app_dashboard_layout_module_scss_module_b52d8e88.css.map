@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/dashboard/layout.module.scss.module.css"],"sourcesContent":[".dashboard_layout{display:grid;gap:1rem;grid-template-columns:200px minmax(600px, 1fr);grid-template-areas:\"header header\" \"sidebar main\";width:100%;height:100%;padding:1rem;overflow-y:scroll}@media screen and (width <= 800px){.dashboard_layout{grid-template-columns:180px 1fr}}.dashboard_main{width:100%;grid-area:main}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;AAAgM;EAAmC;;;;;AAAmD"}}]
+}

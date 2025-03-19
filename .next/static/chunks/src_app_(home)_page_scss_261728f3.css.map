@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///workspace/src/app/%28home%29/page.scss.css"],"sourcesContent":[".home_3_page{background-color:green}"],"names":[],"mappings":"AAAA","debugId":null}}]
+}

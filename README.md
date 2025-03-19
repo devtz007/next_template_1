@@ -1,2 +1,1 @@
-# ecom_1_next
-# ecom_1_next
+# next_template_1

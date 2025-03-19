@@ -1,0 +1,522 @@
+/* [project]/src/components/tags/tags_1-pagePart/tags_1-pagePart.module.scss.module.css [app-client] (css) */
+.tags_1-pagePart-module-scss-module__OGP2ZW__tags_1_pagePart {
+  font-size: .9rem;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tags_1-pagePart-module-scss-module__OGP2ZW__tags_1_pagePart .tags_1-pagePart-module-scss-module__OGP2ZW__tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid var(--first-border-color, gray);
+  border-radius: 4px;
+  background-color: var(--second-color, black);
+}
+
+.tags_1-pagePart-module-scss-module__OGP2ZW__tags_1_pagePart .tags_1-pagePart-module-scss-module__OGP2ZW__tag .tags_1-pagePart-module-scss-module__OGP2ZW__icon {
+  width: 1em;
+  height: 1em;
+}
+
+.tags_1-pagePart-module-scss-module__OGP2ZW__tags_1_pagePart .tags_1-pagePart-module-scss-module__OGP2ZW__tag .tags_1-pagePart-module-scss-module__OGP2ZW__name {
+  text-transform: capitalize;
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+
+/* [project]/src/components/pageIntro/pageIntro_2-pagePart/pageIntro_2-pagePart.module.scss.module.css [app-client] (css) */
+.pageIntro_2-pagePart-module-scss-module__MzJzAW__pageIntro_2_pagePart {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageIntro_2-pagePart-module-scss-module__MzJzAW__pageIntro_2_pagePart .pageIntro_2-pagePart-module-scss-module__MzJzAW__Tags1PagePart_placeHolder {
+  margin-bottom: 20px;
+}
+
+.pageIntro_2-pagePart-module-scss-module__MzJzAW__pageIntro_2_pagePart .pageIntro_2-pagePart-module-scss-module__MzJzAW__heading {
+  font-size: 2.5em;
+  color: rgb(var(--first-text-color, 255, 255, 255));
+  margin-bottom: 30px;
+}
+
+.pageIntro_2-pagePart-module-scss-module__MzJzAW__pageIntro_2_pagePart .pageIntro_2-pagePart-module-scss-module__MzJzAW__list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.pageIntro_2-pagePart-module-scss-module__MzJzAW__pageIntro_2_pagePart .pageIntro_2-pagePart-module-scss-module__MzJzAW__list ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.pageIntro_2-pagePart-module-scss-module__MzJzAW__pageIntro_2_pagePart .pageIntro_2-pagePart-module-scss-module__MzJzAW__list ul li .pageIntro_2-pagePart-module-scss-module__MzJzAW__icon {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.pageIntro_2-pagePart-module-scss-module__MzJzAW__pageIntro_2_pagePart .pageIntro_2-pagePart-module-scss-module__MzJzAW__list ul li .pageIntro_2-pagePart-module-scss-module__MzJzAW__text {
+  font-size: 1.2em;
+  color: var(--second-text-color, #f5f5f5);
+}
+
+.pageIntro_2-pagePart-module-scss-module__MzJzAW__pageIntro_2_pagePart .pageIntro_2-pagePart-module-scss-module__MzJzAW__link {
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 99999px;
+  border: 1px solid var(--first-border-color, gray);
+  background-color: var(--second-color, teal);
+  color: rgb(var(--first-text-color, 255, 255, 255));
+}
+
+
+/* [project]/src/components/sponsor_card/sponsor_cards_1-pagePart/sponsor_cards_1-pagePart.module.scss.module.css [app-client] (css) */
+.sponsor_cards_1-pagePart-module-scss-module__jnqH-G__sponsor_cards_1_pagePart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.sponsor_cards_1-pagePart-module-scss-module__jnqH-G__sponsor_cards_1_pagePart h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--second-text-color, #f5f5f5);
+}
+
+.sponsor_cards_1-pagePart-module-scss-module__jnqH-G__sponsor_cards_1_pagePart .sponsor_cards_1-pagePart-module-scss-module__jnqH-G__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.sponsor_cards_1-pagePart-module-scss-module__jnqH-G__sponsor_cards_1_pagePart .sponsor_cards_1-pagePart-module-scss-module__jnqH-G__list .sponsor_cards_1-pagePart-module-scss-module__jnqH-G__link .sponsor_cards_1-pagePart-module-scss-module__jnqH-G__image {
+  width: 150px;
+}
+
+
+/* [project]/src/components/heading/heading_1-pagePart/heading_1-pagePart.module.scss.module.css [app-client] (css) */
+.heading_1-pagePart-module-scss-module__S1KvUG__heading_1_pagePart {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.heading_1-pagePart-module-scss-module__S1KvUG__heading_1_pagePart .heading_1-pagePart-module-scss-module__S1KvUG__heading_tag {
+  font-size: .9em;
+  text-transform: uppercase;
+  color: var(--primary-color, teal);
+}
+
+.heading_1-pagePart-module-scss-module__S1KvUG__heading_1_pagePart .heading_1-pagePart-module-scss-module__S1KvUG__heading {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: var(--first-text-color, teal);
+}
+
+
+/* [project]/src/components/card/feature_card/feature_cards_4-pagePart/feature_cards_4-pagePart.module.scss.module.css [app-client] (css) */
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  gap: 2rem;
+  background-color: #0000;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 0;
+  min-height: 200px;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__text_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__text_cont .feature_cards_4-pagePart-module-scss-module__BIK3EG__tag {
+  font-size: .8em;
+  color: var(--primary-color, teal);
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__text_cont .feature_cards_4-pagePart-module-scss-module__BIK3EG__heading {
+  color: var(--first-text-color, white);
+}
+
+.feature_cards_4-pagePart-module-scss-module__BIK3EG__feature_cards_1_pagePart .feature_cards_4-pagePart-module-scss-module__BIK3EG__card .feature_cards_4-pagePart-module-scss-module__BIK3EG__text_cont .feature_cards_4-pagePart-module-scss-module__BIK3EG__description {
+  font-size: .8em;
+  color: var(--second-text-color, #f5f5f5);
+}
+
+
+/* [project]/src/components/card/poster_card/poster_cards_3-pagePart/poster_cards_3-pagePart.module.scss.module.css [app-client] (css) */
+.poster_cards_3-pagePart-module-scss-module__jRReYG__poster_cards_3_pagePart {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.poster_cards_3-pagePart-module-scss-module__jRReYG__poster_cards_3_pagePart .poster_cards_3-pagePart-module-scss-module__jRReYG__cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.poster_cards_3-pagePart-module-scss-module__jRReYG__poster_cards_3_pagePart .poster_cards_3-pagePart-module-scss-module__jRReYG__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 200px;
+}
+
+.poster_cards_3-pagePart-module-scss-module__jRReYG__poster_cards_3_pagePart .poster_cards_3-pagePart-module-scss-module__jRReYG__card .poster_cards_3-pagePart-module-scss-module__jRReYG__heading {
+  font-size: 1.2em;
+  color: var(--first-text-color, white);
+  border-left: 4px solid var(--primary-color, teal);
+  padding-left: 10px;
+}
+
+.poster_cards_3-pagePart-module-scss-module__jRReYG__poster_cards_3_pagePart .poster_cards_3-pagePart-module-scss-module__jRReYG__card .poster_cards_3-pagePart-module-scss-module__jRReYG__description {
+  font-size: 1em;
+  color: var(--second-text-color, #f5f5f5);
+}
+
+
+/* [project]/src/components/about/about_1-pagePart/about_1-pagePart.module.scss.module.css [app-client] (css) */
+.about_1-pagePart-module-scss-module__f9WNLq__about_1_pagePart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.about_1-pagePart-module-scss-module__f9WNLq__about_1_pagePart .about_1-pagePart-module-scss-module__f9WNLq__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about_1-pagePart-module-scss-module__f9WNLq__about_1_pagePart .about_1-pagePart-module-scss-module__f9WNLq__list p {
+  font-size: 1rem;
+  color: var(--second-text-color, #f5f5f5);
+  border-left: 4px solid var(--primary-color, teal);
+  padding-left: 10px;
+}
+
+
+/* [project]/src/components/quote/quote_1-pagePart/quote_1-pagePart.tsx/quote_1-pagePart.module.scss.module.css [app-client] (css) */
+.quote_1-pagePart-module-scss-module__qacVQG__quote_1_pagePart {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.quote_1-pagePart-module-scss-module__qacVQG__quote_1_pagePart .quote_1-pagePart-module-scss-module__qacVQG__icon {
+  width: 2.5em;
+  height: auto;
+}
+
+.quote_1-pagePart-module-scss-module__qacVQG__quote_1_pagePart .quote_1-pagePart-module-scss-module__qacVQG__text_contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.quote_1-pagePart-module-scss-module__qacVQG__quote_1_pagePart .quote_1-pagePart-module-scss-module__qacVQG__text_contents blockquote {
+  font-size: 1.2em;
+  text-align: center;
+  color: var(--second-text-color, white);
+}
+
+.quote_1-pagePart-module-scss-module__qacVQG__quote_1_pagePart .quote_1-pagePart-module-scss-module__qacVQG__text_contents .quote_1-pagePart-module-scss-module__qacVQG__name {
+  font-size: .9em;
+  color: var(--second-text-color, white);
+}
+
+.quote_1-pagePart-module-scss-module__qacVQG__quote_1_pagePart .quote_1-pagePart-module-scss-module__qacVQG__button_cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  margin-top: 20px;
+}
+
+.quote_1-pagePart-module-scss-module__qacVQG__quote_1_pagePart .quote_1-pagePart-module-scss-module__qacVQG__button_cont button {
+  width: 40px;
+  height: 4px;
+  background-color: var(--second-text-color);
+}
+
+.quote_1-pagePart-module-scss-module__qacVQG__quote_1_pagePart .quote_1-pagePart-module-scss-module__qacVQG__button_cont .quote_1-pagePart-module-scss-module__qacVQG__active {
+  background-color: var(--primary-color, teal);
+}
+
+
+/* [project]/src/components/card/poster_card/poster_card_3-pagePart/poster_card_3-pagePart.module.scss.module.css [app-client] (css) */
+.poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  border-radius: 8px;
+  padding: 60px 10px;
+  background-color: #0000;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media screen and (width <= 500px) {
+  .poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart {
+    padding: 10px;
+    border-radius: 4px;
+    gap: 10px;
+  }
+}
+
+.poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  bottom: 0%;
+  right: -6px;
+  width: 600px;
+  height: 200px;
+}
+
+.poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__info_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (width <= 322px) {
+  .poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__info_cont {
+    gap: 10px;
+  }
+}
+
+.poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__info_cont .poster_card_3-pagePart-module-scss-module__oDemja__heading {
+  font-size: 1.5em;
+  color: var(--third-text-color, white);
+}
+
+@media screen and (width <= 500px) {
+  .poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__info_cont .poster_card_3-pagePart-module-scss-module__oDemja__heading {
+    font-size: 2em;
+  }
+}
+
+@media screen and (width <= 322px) {
+  .poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__info_cont .poster_card_3-pagePart-module-scss-module__oDemja__heading {
+    font-size: 1.5em;
+  }
+}
+
+.poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__info_cont .poster_card_3-pagePart-module-scss-module__oDemja__text {
+  font-size: 1em;
+  color: var(--fourth-text-color, #f5f5f5);
+}
+
+.poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__info_cont__button_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__info_cont__button_cont__button {
+  padding: 10px 40px;
+  border-radius: 99999px;
+  background-color: var(--first-background-color, white);
+  color: var(--primary-color, teal);
+}
+
+@media screen and (width <= 322px) {
+  .poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__info_cont__button_cont__button {
+    padding: 10px 30px;
+  }
+}
+
+.poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (width <= 800px) {
+  .poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__image {
+    min-width: 160px;
+  }
+}
+
+@media screen and (width <= 500px) {
+  .poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__image {
+    min-width: 140px;
+  }
+}
+
+.poster_card_3-pagePart-module-scss-module__oDemja__poster_card_3_pagePart .poster_card_3-pagePart-module-scss-module__oDemja__image img {
+  object-position: top;
+}
+
+
+/* [project]/src/media/images/global/bg1.svg (static in css) */
+/* embedded static asset "/_next/static/media/bg1.db96125f.svg" */
+
+/* [project]/src/app/(home)/page.scss.css [app-client] (css) */
+.home_3_page {
+  padding-top: 0;
+}
+
+.home_3_page .container_1 {
+  position: relative;
+}
+
+.home_3_page .container_1 .round_shape {
+  position: absolute;
+  z-index: -1;
+  top: -200px;
+  left: -200px;
+  width: 400px;
+  height: 400px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  box-shadow: 0 0 400px 300px var(--primary-color) CC, 0 0 800px 600px var(--primary-color) B3, 0 0 1600px 1200px var(--primary-color) 99, 0 0 2500px 1800px var(--primary-color) 80, 0 0 4000px 3000px var(--primary-color) 66;
+  pointer-events: none;
+  filter: blur(200px);
+  opacity: 1;
+}
+
+.home_3_page .container_1 .width_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.home_3_page .container_1 .PageIntro2PagePart__placeHolder {
+  flex: 3 400px;
+  max-width: 60%;
+}
+
+.home_3_page .container_1 .image_cont {
+  flex: 400px;
+  width: auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.home_3_page .container_3 .width_wrapper {
+  width: 70%;
+}
+
+.home_3_page .container_3 .FeatureCards4PagePart_placeHolder .card {
+  min-height: 200px;
+}
+
+.home_3_page .container_4 .width_wrapper {
+  width: 70%;
+}
+
+.home_3_page .container_5 {
+  position: relative;
+}
+
+.home_3_page .container_5 .width_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+}
+
+.home_3_page .container_5 .width_wrapper .About1PagePart_placeHolder {
+  flex: 3 400px;
+  max-width: 60%;
+}
+
+.home_3_page .container_5 .width_wrapper .About1PagePart_placeHolder .Heading1PagePart_placeHolder .heading_1_pagePart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.home_3_page .container_5 .width_wrapper .image_cont {
+  flex: 400px;
+  width: auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.home_3_page .container_5:before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-position: center;
+  background-image: url("../media/bg1.db96125f.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*# sourceMappingURL=src_99523bd7._.css.map*/

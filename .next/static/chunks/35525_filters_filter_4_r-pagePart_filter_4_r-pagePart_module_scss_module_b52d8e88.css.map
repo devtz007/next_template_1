@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/filters/filter_4_r-pagePart/filter_4_r-pagePart.module.scss.module.css"],"sourcesContent":[".filter_4_r_pagePart{position:relative;text-transform:capitalize;display:flex;white-space:nowrap}.filter_4_r_pagePart .filter{display:flex;flex-direction:row;justify-content:space-between;align-items:center;gap:10px;border:1px solid var(--first-border-color, gray);padding:8px 12px;border-radius:99999px;background-color:var(--third-background-color, black);color:var(--second-text-color, gray)}.filter_4_r_pagePart .filter .icon{width:1rem;height:1rem;transition:transform .1s ease}.filter_4_r_pagePart .dropDown{position:absolute;z-index:1;top:calc(100% + 10px);right:0%;border-radius:8px;padding:.8rem;background-color:var(--third-background-color, black)}.filter_4_r_pagePart .dropDown ul{display:flex;flex-direction:column;gap:10px}.filter_4_r_pagePart .dropDown ul li button{text-align:start;width:100%;padding:5px .8rem;border-radius:4px;background-color:var(--fourth-background-color, black);color:var(--second-text-color, gray)}.filter_4_r_pagePart .rotate{transform:rotate(180deg)}"],"names":[],"mappings":"AAAA;;;;;;;AAAiG;;;;;;;;;;;;;AAA0S;;;;;;AAAwF;;;;;;;;;;AAAgL;;;;;;AAA8E;;;;;;;;;AAAwM"}}]
+}

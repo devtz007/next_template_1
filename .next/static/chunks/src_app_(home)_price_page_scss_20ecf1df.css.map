@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///workspace/src/app/%28home%29/price/page.scss.css"],"sourcesContent":[".price_3_page{background-color:coral}"],"names":[],"mappings":"AAAA","debugId":null}}]
+}

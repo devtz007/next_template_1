@@ -1,0 +1,13 @@
+services:
+  next_template_1_dev_container:
+    container_name: next_template_1_dev
+    build:
+      context: . # Use the Dockerfile in this directory
+      dockerfile: Dockerfile
+
+    volumes:
+      - ../../:/workspace
+    ports:
+      - '3000:3000'
+      - '9229:9229'
+    command: tail -f /dev/null # Keep the container running

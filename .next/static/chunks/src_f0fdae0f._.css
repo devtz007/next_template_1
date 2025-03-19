@@ -1,0 +1,373 @@
+/* [project]/src/app/dashboard/layout.module.scss.module.css [app-client] (css) */
+.layout-module-scss-module__JWUOKa__dashboard_layout {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 200px minmax(600px, 1fr);
+  grid-template-areas: "header header"
+                       "sidebar main";
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+@media screen and (width <= 800px) {
+  .layout-module-scss-module__JWUOKa__dashboard_layout {
+    grid-template-columns: 180px 1fr;
+  }
+}
+
+.layout-module-scss-module__JWUOKa__dashboard_main {
+  width: 100%;
+  grid-area: main;
+}
+
+
+/* [project]/src/components/button/profile_button_1-pagePart/profile_button_1-pagePart.module.scss.module.css [app-client] (css) */
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: .8rem;
+  gap: .8rem;
+  background: none;
+  color: var(--dusty-white, #fff);
+  border: none;
+  cursor: pointer;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart__icon_cont {
+  width: 1.2rem;
+  aspect-ratio: 1;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart__image_cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_invite {
+  padding: .5rem 1rem;
+  border: 1px solid var(--charcoal-gray, gray);
+  border-radius: 99999px;
+  color: var(--dusty-white, white);
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_notification {
+  position: relative;
+  margin-right: 1.1rem;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_notification__icon_cont {
+  width: 1.4rem;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_notification__count {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  width: calc(1em + 8px);
+  height: calc(1em + 8px);
+  border-radius: 50%;
+  padding: 4px;
+  background-color: var(--crimson, crimson);
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_profile__image_cont {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile_button_1-pagePart-module-scss-module__GqrJZG__profile_button_1_pagePart_profile__icon_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.4rem;
+}
+
+
+/* [project]/src/components/header/header_6-pagePartvv/header_6_r-pagePart.module.scss.module.css [app-client] (css) */
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+  grid-area: header;
+  padding: .8rem;
+  border: 1px solid --first-border-color, gray;
+  border-radius: 8px;
+  background-color: var(--second-background-color, black);
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__logo {
+  height: 30px;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: .8rem;
+  gap: .8rem;
+  background: none;
+  color: var(--second-text-color, #fff);
+  border: none;
+  cursor: pointer;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button__icon_cont {
+  width: 1.2rem;
+  aspect-ratio: 1;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button__image_cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_invite {
+  padding: .5rem 1rem;
+  border: 1px solid var(--first-border-color, gray);
+  border-radius: 99999px;
+  color: var(--second-text-color, #fff);
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_notification {
+  position: relative;
+  margin-right: 1.1rem;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_notification__icon_cont {
+  width: 1.4rem;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_notification__count {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  width: calc(1em + 8px);
+  height: calc(1em + 8px);
+  border-radius: 50%;
+  padding: 4px;
+  background-color: #c14600;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_profile__image_cont {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_profile__icon_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.4rem;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__profile_button_dropDown {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  position: absolute;
+  top: 110%;
+  right: 0%;
+  width: 200px;
+  background-color: var(--third-background-color, gray);
+  border-radius: 8px;
+  padding: .5rem;
+  transition: all .1s;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__profile_button_dropDown__item {
+  padding: .5rem;
+  border-radius: 4px;
+  background-color: #0000;
+  color: var(--second-text-color, #fff);
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__profile_button_dropDown_active {
+  background-color: var(--eucalyptus, teal);
+  color: var(--eerie-black, gray);
+}
+
+
+/* [project]/src/components/button/buttons_2-pagePart/buttons_2-pagePart.module.scss.module.css [app-client] (css) */
+.buttons_2-pagePart-module-scss-module__WdYmva__buttons_2_pagePart {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  gap: 10px;
+  width: 100%;
+}
+
+.buttons_2-pagePart-module-scss-module__WdYmva__buttons_2_pagePart__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .8rem;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #0000;
+  color: var(--second-text-color, #fff);
+  font-size: 1rem;
+  white-space: wrap;
+  cursor: pointer;
+  transition: background-color .1s, color .1s;
+}
+
+.buttons_2-pagePart-module-scss-module__WdYmva__buttons_2_pagePart__button.buttons_2-pagePart-module-scss-module__WdYmva__active {
+  background-color: var(--charcoal-green, #1c2624);
+  color: rgb(var(--first-text-color, #fff));
+}
+
+.buttons_2-pagePart-module-scss-module__WdYmva__buttons_2_pagePart__button__icon {
+  min-width: 1rem;
+  height: 1rem;
+}
+
+
+/* [project]/src/components/card/status_card/status_cards_1-pagePart/status_cards_1-pagePart.module.scss.module.css [app-client] (css) */
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--pure-white, white);
+  background: #3dffbb;
+  background: linear-gradient(#3dffbb40 0%, #1d1d1d80 100%);
+  background: linear-gradient(#3dffbb40 0%, #1d1d1d80 100%);
+  background: linear-gradient(#3dffbb40 0%, #1d1d1d80 100%);
+  filter: progid:DXImageTransform. Microsoft. gradient(startColorstr= "#3dffbb", endColorstr= "#1d1d1d", GradientType= 1);
+}
+
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart .status_cards_1-pagePart-module-scss-module__dh1TRG__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart .status_cards_1-pagePart-module-scss-module__dh1TRG__card .status_cards_1-pagePart-module-scss-module__dh1TRG__image_content {
+  width: 8rem;
+  height: 8rem;
+}
+
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart .status_cards_1-pagePart-module-scss-module__dh1TRG__card .status_cards_1-pagePart-module-scss-module__dh1TRG__description {
+  text-align: center;
+  min-height: 4em;
+}
+
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart .status_cards_1-pagePart-module-scss-module__dh1TRG__card .status_cards_1-pagePart-module-scss-module__dh1TRG__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-radius: 99999px;
+  font-size: 1em;
+  padding: 6px 18px;
+  background-color: var(--primary-color, teal);
+  color: var(--pure-white, white);
+}
+
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart .status_cards_1-pagePart-module-scss-module__dh1TRG__card .status_cards_1-pagePart-module-scss-module__dh1TRG__button .status_cards_1-pagePart-module-scss-module__dh1TRG__text {
+  text-align: center;
+}
+
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart .status_cards_1-pagePart-module-scss-module__dh1TRG__card .status_cards_1-pagePart-module-scss-module__dh1TRG__button .status_cards_1-pagePart-module-scss-module__dh1TRG__icon {
+  min-width: 1.5em;
+  width: 1.5em;
+}
+
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart .status_cards_1-pagePart-module-scss-module__dh1TRG__indicators {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart .status_cards_1-pagePart-module-scss-module__dh1TRG__indicators .status_cards_1-pagePart-module-scss-module__dh1TRG__indicator {
+  width: 40px;
+  height: 4px;
+  background-color: var(--pure-white, gray);
+  opacity: .5;
+}
+
+.status_cards_1-pagePart-module-scss-module__dh1TRG__status_cards_1_pagePart .status_cards_1-pagePart-module-scss-module__dh1TRG__indicators .status_cards_1-pagePart-module-scss-module__dh1TRG__indicator.status_cards_1-pagePart-module-scss-module__dh1TRG__active {
+  background-color: var(--pure-white, white);
+  opacity: 1;
+}
+
+
+/* [project]/src/components/sideBar_1-pagePart/sideBar_1-pagePart.scss.css [app-client] (css) */
+.sideBar_1_pagePart {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1.4rem 1rem;
+  border-radius: 8px;
+  background-color: var(--second-background-color, black);
+}
+
+.sideBar_1_pagePart .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.sideBar_1_pagePart .buttons .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .8rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.sideBar_1_pagePart .buttons .button .icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.sideBar_1_pagePart .buttons .button .text {
+  color: var(--second-text-color, white);
+}
+
+.sideBar_1_pagePart .buttons .button.renew {
+  background: #3dffbb;
+  background: linear-gradient(90deg, #3dffbb40 0%, #1d1d1d80 100%);
+  background: linear-gradient(90deg, #3dffbb40 0%, #1d1d1d80 100%);
+  background: linear-gradient(90deg, #3dffbb40 0%, #1d1d1d80 100%);
+  filter: progid:DXImageTransform. Microsoft. gradient(startColorstr= "#3dffbb", endColorstr= "#1d1d1d", GradientType= 1);
+}
+
+
+/*# sourceMappingURL=src_f0fdae0f._.css.map*/

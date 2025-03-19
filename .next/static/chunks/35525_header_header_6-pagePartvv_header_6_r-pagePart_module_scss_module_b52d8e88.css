@@ -1,0 +1,121 @@
+/* [project]/src/components/header/header_6-pagePartvv/header_6_r-pagePart.module.scss.module.css [app-client] (css) */
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+  grid-area: header;
+  padding: .8rem;
+  border: 1px solid --first-border-color, gray;
+  border-radius: 8px;
+  background-color: var(--second-background-color, black);
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__logo {
+  height: 30px;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: .8rem;
+  gap: .8rem;
+  background: none;
+  color: var(--second-text-color, #fff);
+  border: none;
+  cursor: pointer;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button__icon_cont {
+  width: 1.2rem;
+  aspect-ratio: 1;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button__image_cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_invite {
+  padding: .5rem 1rem;
+  border: 1px solid var(--first-border-color, gray);
+  border-radius: 99999px;
+  color: var(--second-text-color, #fff);
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_notification {
+  position: relative;
+  margin-right: 1.1rem;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_notification__icon_cont {
+  width: 1.4rem;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_notification__count {
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  width: calc(1em + 8px);
+  height: calc(1em + 8px);
+  border-radius: 50%;
+  padding: 4px;
+  background-color: #c14600;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_profile__image_cont {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__button_profile__icon_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.4rem;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__profile_button_dropDown {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  position: absolute;
+  top: 110%;
+  right: 0%;
+  width: 200px;
+  background-color: var(--third-background-color, gray);
+  border-radius: 8px;
+  padding: .5rem;
+  transition: all .1s;
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__header_6_pagePart__profile_button_dropDown__item {
+  padding: .5rem;
+  border-radius: 4px;
+  background-color: #0000;
+  color: var(--second-text-color, #fff);
+}
+
+.header_6_r-pagePart-module-scss-module__R5uDeG__profile_button_dropDown_active {
+  background-color: var(--eucalyptus, teal);
+  color: var(--eerie-black, gray);
+}
+
+/*# sourceMappingURL=35525_header_header_6-pagePartvv_header_6_r-pagePart_module_scss_module_b52d8e88.css.map*/
