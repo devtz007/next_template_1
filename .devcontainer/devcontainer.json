@@ -5,7 +5,7 @@
   "workspaceFolder": "/workspace",
   "postCreateCommand": "npm install",
   "containerEnv": {
-    "WAKATIME_API_KEY": "waka_b523412d-64a7-4e27-8834-ba8dcb3430e6"
+    "WAKATIME_API_KEY": ""
   },
   "customizations": {
     "vscode": {
@@ -14,10 +14,6 @@
         "esbenp.prettier-vscode",
         "ExodiusStudios.comment-anchors",
         "stylelint.vscode-stylelint",
-        "GitHub.copilot",
-        "GitHub.copilot-chat",
-        "jock.svg",
-        "WakaTime.vscode-wakatime",
         "ChakrounAnas.turbo-console-log",
         "github.vscode-github-actions"
       ],
